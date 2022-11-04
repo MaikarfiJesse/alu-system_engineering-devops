@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Configures NGINX server to display custom 404 page
-# Page contains the text "Ceci n'est pas une page"
+# comment
 sudo apt update
 sudo apt install nginx -y
 sudo touch /var/www/html/index.html
@@ -22,3 +21,8 @@ printf %s "server {
 " | sudo tee /etc/nginx/sites-available/default
 
 sudo service nginx restart
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Priva
